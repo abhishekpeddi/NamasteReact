@@ -1,2 +1,3 @@
 # NamasteReact
-Learning REACT from Zero
+# Chapter 01 - Inception
+ 

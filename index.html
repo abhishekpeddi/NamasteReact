@@ -1,27 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Namaste React!</title>
-</head>
-<body>
-        <div id="root"></div>
+    <link rel = "stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="root">Not Rendered</div>
+  
+  <script
+    crossorigin
+    src="https://unpkg.com/react@18/umd/react.development.js"
+  ></script>
+  <script
+    crossorigin
+    src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+  ></script>
+  <script src="./App.js"></script>
 </body>
-<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-<script>
-        /* This is for simple Javascript...
-        const heading = document.createElement("h1");
-        heading.innerHTML = "Namaste from js!";
-        document.getElementById("root").append(heading);
-        */
-       //The belo  is for React...
-        const heading = React.createElement("h1",{},"Namaste From React!");
-        console.log(heading);
-        const root = ReactDOM.createRoot(document.getElementById("root"));
-        root.render(heading); //passing a react element inside a root...
-
-</script>
 </html>
